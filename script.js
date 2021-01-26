@@ -20,4 +20,11 @@ function compute() {
             + "in the year <mark>" + futureYear + "</mark>";
     result.innerHTML = output;
 }
+
+function update() {
+    var slider = document.getElementById("rate");
+    var output = document.getElementById("demo");
+    var percents = slider.value + "%";
+    output.innerHTML = percents;
+}
         
